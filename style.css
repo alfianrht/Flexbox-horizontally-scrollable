@@ -1,0 +1,34 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #8e44ad;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    /* background-color: #fff; */
+    min-width: 100%;
+    min-height: 200px;
+    display: flex;
+  }
+
+  .card--content {
+    background-color: #e74c3c;
+    min-width: 200px;
+    margin: 5px;
+    box-shadow: 3px 5px rgba(255,255,255,0.05);
+  }
+
+  .card {
+    overflow-x: auto;
+  }
+
+  .card::-webkit-scrollbar {
+    display: none;
+  }
